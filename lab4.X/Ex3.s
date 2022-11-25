@@ -33,7 +33,6 @@ LOOP:
     SETF    TRISB1,1
     call    delay_50ms
     SETF    TRISB1,0
-    GOTO    LOOP
     SETF    TRISB2,1
     call    delay_50ms
     SETF    TRISB2,0
